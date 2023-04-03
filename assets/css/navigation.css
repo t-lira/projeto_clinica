@@ -1,0 +1,23 @@
+
+header{
+  background-color: var(--corThree);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2%;
+}
+
+.navigation ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.navigation li a{
+  color: black;
+}
+
+.img-header{
+  width: 40px;
+}

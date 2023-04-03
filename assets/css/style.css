@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+@import url(reset.css);
+@import url(navigation.css);
+@import url(mediatypes.css);
+
+
+hr{
+  width: 40%;
+  height: 1px;
+  border: none;
+  background-color: var(--corTwo);
+  margin: 10% auto;
+}
+
+/*SECTION TOP*/
+.home-section-top{
+  background-image: url(/assets/imagens/hm.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 50vh;
+  
+}
+.h-txt-section-top p{
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 5%;
+}
+
+/*SECTION PROCEDURE */
+.d-procedure{
+  padding: 3%;
+}
+
+.d-procedure-group{
+  padding: 5%;
+}
+
+.d-title-procedure{
+  display: flex;
+  justify-content: flex-start;
+  gap: 10%;
+}
+
+.d-title-procedure h2{
+  color: var(--corOne);
+  font-size: 1.3rem;
+}
+
+.d-text-procedure{
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.img-procedure{
+  width: 30px;
+}
+/*SECTION MORE INFORMATION*/
+
+.m-information{
+  text-align: center;
+  padding: 3%;
+}
+
+.m-information p{
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+.m-information h2{
+  color: var(--corFour);
+  padding: 3%;
+}
+
+.m-information ul{
+  line-height: 1.5rem;
+}
+.m-information iframe{
+  width: 100%;
+  height: 300px;
+}
+
+.m-img-information{
+  width: 15%;
+  margin: 2% 0;
+}
+
+/*ASIDE*/
+
+.aside-contact__list{
+  padding: 3%;
+}
+
+.contact__list{
+  margin-bottom: 8%; 
+}
+
+.contact__list h3 {
+  color: var(--corFour);
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2%;
+}
+
+.contact__list ul{
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.contact__list p{
+text-align: center;
+padding: 3%;
+}
+
+.a-link-access{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 5%; 
+}
+
+.l-img-aside {
+  width: 20px; 
+}
+
+/*FOOTER*/
+
+.f-footer{
+  background-color: var(--corThree);
+  padding: 3%;
+}
+
+.f-text {
+  text-align: center;
+}
+
+
+
