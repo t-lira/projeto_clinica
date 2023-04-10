@@ -1,10 +1,7 @@
-
 header{
   background-color: var(--corFour);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 1%;
+  text-align: center;
+  padding: 15px;
 }
 
 .navigation ul{
@@ -19,5 +16,21 @@ header{
 }
 
 .img-header{
-  width: 40px;
+  display: none;
+}
+
+@media(min-width:1024px){
+  header{
+    background-color: var(--corFour);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3px;
+  }
+
+  .img-header{
+    width: 40px;
+    display: block;
+  }
+
 }

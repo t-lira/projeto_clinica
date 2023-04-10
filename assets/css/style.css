@@ -8,15 +8,15 @@ hr{
   height: 1px;
   border: none;
   background-color: var(--corTwo);
-  margin: 10% auto;
+  margin: 20px auto;
 }
 
 /*SECTION HOME-TOP*/
 .s-home-top{
-  background-image: url(/assets/imagens/hm.webp);
+  background-image: url(/assets/imagens/pexels-photo-6627533.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   height: 50vh;
 }
 
@@ -45,7 +45,7 @@ hr{
 /*SECTION KNOW-MORE*/
 
 .container-kow-more{
-  padding: 3%;
+  padding: 5px;
 }
 
 .s-txt-know-more p{
@@ -56,7 +56,7 @@ hr{
 
 .s-txt-know-more h2{
   text-align: center;
-  padding: 3% 0;
+  padding: 5px 0;
   color: var(--corFour);
 }
 
@@ -94,7 +94,7 @@ hr{
 .s-text-procedure{
   line-height: 1.3rem;
   text-align: justify; 
-  padding: 3%; 
+  padding: 5px; 
 }
 
 .img-procedure{
@@ -105,7 +105,7 @@ hr{
 
 .m-information{
   text-align: center;
-  padding: 3%;
+  padding: 5px;
 }
 
 .m-information p{
@@ -115,7 +115,7 @@ hr{
 
 .m-information h2{
   color: var(--corFour);
-  padding: 3%;
+  padding: 5px;
 }
 
 .m-information iframe{
@@ -131,7 +131,7 @@ hr{
 /*ASIDE*/
 
 .aside-contact__list{
-  padding: 3%;
+  padding: 5px;
 }
 
 .a-contact__list{
@@ -142,7 +142,7 @@ hr{
   color: var(--corFour);
   text-align: center;
   font-size: 1.5rem;
-  padding: 2%;
+  padding: 8px;
 }
 
 .a-contact__list ul{
@@ -152,7 +152,7 @@ hr{
 
 .a-contact__list p{
 text-align: center;
-padding: 3%;
+padding: 10px;
 }
 
 .a-link-access{
@@ -169,12 +169,13 @@ padding: 3%;
 /*FOOTER*/
 
 .f-footer{
-  background-color: var(--corThree);
-  padding: 3%;
+  background-color: var(--corFour);
+  padding: 10px;
 }
 
 .f-text {
   text-align: center;
+  color: var(--corThree);
 }
 
 /*TABLET*/
@@ -210,8 +211,6 @@ padding: 3%;
     display: block;
   }
 
-
-
   .btn{
     background-color: var(--corTwo);
     width: 200px;
@@ -224,10 +223,10 @@ padding: 3%;
   .btn a{
     color: black;
     text-transform: uppercase;
-  
   }
 
   /*SECTION KNOW-MORE*/
+
   .s-img-know-more{
     gap: 2%;
   }
@@ -239,8 +238,8 @@ padding: 3%;
     padding: 1% 0;  
   }
 
-  
   /*SECTION PROCEDURE*/
+
   .s-procedure h3{
     margin-bottom: 5%;
   }
@@ -254,6 +253,7 @@ padding: 3%;
     width: 100%;
     height: 400px;
   }
+
   .m-img-information{
     width: 10%;
     margin: auto;
@@ -261,9 +261,6 @@ padding: 3%;
   }
 
   /*ASIDE*/
-  .a-contact__list p{
-    padding: 2%;
-    }
   .a-contact__list{
     margin-bottom: 3%; 
   }
@@ -272,12 +269,15 @@ padding: 3%;
     gap: 10px;
     margin-top: 2%; 
   }
+
   .l-img-aside {
     width: 25px; 
   }
+
   /*FOOTER*/
+
   .f-footer{
-  padding: 1%;
+  padding: 10px;
   }
 }
 
@@ -287,55 +287,49 @@ padding: 3%;
 @media(min-width:1024px){
   hr{
     width: 10%;
-    margin: 3% auto;
+    margin: 40px auto;
   }
 
   /*SECTION KNOW-MORE*/
 
-  
   .s-txt-know-more p{
-    line-height: 1.5em;
+    line-height: 1.5rem;
     text-align: justify;
-    margin-bottom: 1%;
+    margin-bottom: 10px;
     width: 80%;
-    margin: 2% auto;
+    margin: 20px auto;
     text-indent: 2rem;
   }
 
-  /*  margin: 15% 3%;*/
-
   .s-img-know-more img{
     width: 100%;
-    height: 250px;
+    height: 300px;
   }
-
   .s-img-know-more{
-    padding: 2% 10%;
+    padding: 24px;
   }
-
-  
 
   /*SECTION PROCEDURE*/
 
   .s-container-procedure{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 3%;
-    gap: 2%;
-    grid-auto-rows: 290px;
+    padding: 24px;
+    gap: 10px;
+    grid-auto-rows: 245px;
 
   }
 
   .s-title-procedure{
     display: flex;
-    justify-content:flex-start;
-    gap: 2%;
+    justify-content:space-evenly;
+    gap: 5px;
     color: var(--corOne);
     margin-left: 0;
   }
 
   .s-procedure-group{
-    padding: 2%;
+    padding: 5px;
     background-color: var(--corThree);
     border-radius: 10px;
   }
@@ -343,8 +337,6 @@ padding: 3%;
   .s-text-procedure{
     line-height: 2rem;
   }
-
-
 
   /*SECTION MORE-INFORMATION*/
   .m-img-information{
@@ -367,7 +359,7 @@ padding: 3%;
   .a-contact__list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 5%;
+    gap: 10px;
   }
 
 }
