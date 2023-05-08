@@ -1,0 +1,9 @@
+.icon--burguer{
+  color: white;
+}
+@media(min-width:1024px){
+  .icon--burguer{
+    visibility: hidden;
+  }
+
+}

@@ -1,0 +1,16 @@
+.section-dentist{
+  padding: 10px;
+  background-color: var(--gray);
+}
+
+@media(min-width:768px){
+  .section-dentist{
+    padding: 40px;
+  }
+}
+
+@media(min-width:1024px){
+  .section-dentist{
+    padding: 40px 100px ;
+  }
+}

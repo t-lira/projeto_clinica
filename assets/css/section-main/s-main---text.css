@@ -1,0 +1,21 @@
+.s-main--text{
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 30px;
+  font-family: var(--fontalternates);
+}
+@media(min-width:768px){
+  .s-main--text{
+    font-size: 2.5rem;
+    width: 30%;
+  }
+  }
+@media(min-width:1024px){
+.s-main--text{
+  font-size: 4rem;
+  width: 60%;
+}
+}
+
+
+

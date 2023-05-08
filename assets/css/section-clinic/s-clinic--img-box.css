@@ -1,0 +1,14 @@
+.s-clinic--box-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 40px;
+ }
+
+@media(min-width:1024px){
+ .s-clinic--box-img{
+  display: flex;
+  gap: 10px;
+
+} 
+}

@@ -1,0 +1,5 @@
+.section-main{
+  background: url("/assets/image/home/img-home.jpeg") no-repeat bottom/cover;
+  height: calc(100vh - 50px);
+  position: relative;
+}

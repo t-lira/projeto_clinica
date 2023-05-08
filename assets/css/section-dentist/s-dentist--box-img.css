@@ -1,0 +1,43 @@
+.s-dentist--box-img{
+  height: 50px;
+  width: 60px;
+}
+
+.clareamento{
+  background: url("/assets/image/dentist/clareamento.png") no-repeat center/contain;
+}
+
+.implantes{
+  background: url("/assets/image/dentist/implante.png") no-repeat center/contain;
+}
+
+.proteses{
+  background: url("/assets/image/dentist/protese.png") no-repeat center/contain;
+}
+
+.endodontia{
+  background: url("/assets/image/dentist/endo.png") no-repeat center/contain;
+}
+
+.periodontia{
+  background: url("/assets/image/dentist/periodontia.png") no-repeat center/contain;
+}
+
+.ortodontia{
+  background: url("/assets/image/dentist/orto.png") no-repeat center/contain;
+}
+
+.faceta{
+  background: url("/assets/image/dentist/facetas.png") no-repeat center/contain;
+}
+
+.clinico{
+  background: url("/assets/image/dentist/clinico.png") no-repeat center/contain;
+}
+
+@media(min-width:1024px){
+  .s-dentist--box-img{
+    height: 100px;
+    width: 120px;
+  }
+}

@@ -1,0 +1,14 @@
+.footer--text {
+  text-align: center;
+  width: 70%;
+}
+
+.footer--text:last-child{
+  width: 100%;
+}
+
+.footer--title{
+  font-size: 1rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

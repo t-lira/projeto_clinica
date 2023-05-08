@@ -1,0 +1,18 @@
+.menu-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.link-nav{
+  color: white;
+  display: none;
+}
+
+@media(min-width:1024px){
+  .link-nav{
+    display: block;
+  }
+
+}

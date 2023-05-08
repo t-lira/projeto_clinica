@@ -1,0 +1,33 @@
+.s-information--title{
+  font: 2rem;
+  font-family: var(--fontalternates);
+  margin-bottom: 15px;
+}
+.s-information--text{
+  margin-bottom: 15px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media(min-width:768px){
+
+.s-information--text{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 70%;
+}
+
+.s-information--title{
+  width: 40%;
+}
+
+}
+ 
+@media(min-width:768px){
+  .s-information--title{
+    font: 3rem;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+
+}

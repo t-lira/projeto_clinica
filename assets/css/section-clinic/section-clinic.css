@@ -1,0 +1,14 @@
+.section-clinic{
+  padding: 10px;
+  background-color: var(--gray);
+}
+@media(min-width:768px){
+  .section-clinic{
+    padding: 40px;
+  }
+}
+@media(min-width:1024px){
+  .section-clinic{
+    padding: 80px 100px;
+  }
+}

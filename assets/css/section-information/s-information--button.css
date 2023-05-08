@@ -1,0 +1,28 @@
+.s-information--button{
+  background-color:var(--purpleDark);
+  width: 180px;
+  height: 45px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+.s-information--link{
+  color: white;
+  text-transform: uppercase;
+}
+
+@media(min-width:1024px){
+ .s-information--button:hover{
+  background-color: var(--purpleLight);
+} 
+}
+
+
+
+
+
+
+  

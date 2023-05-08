@@ -1,0 +1,19 @@
+.section-information{
+  padding: 10px;
+  background-color:var(--gray);
+
+}
+
+@media(min-width:768px){
+  .section-information{
+    padding: 20px 120px ;
+  }
+}
+
+@media(min-width:1024px){
+  .section-information{
+    padding: 20px 100px ;
+  }
+
+}
+

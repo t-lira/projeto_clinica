@@ -1,0 +1,14 @@
+.header{
+  background-color: var(--purpleDark);
+  text-align: center;
+  padding: 5px;
+}
+
+@media(min-width:1024px){
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3px;
+  } 
+}

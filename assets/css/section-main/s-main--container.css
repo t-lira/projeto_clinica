@@ -1,0 +1,22 @@
+.s-main--container{
+  position: absolute;
+  left: 5%;
+  top: 5%;
+ 
+}
+
+@media(min-width:768px){
+  .s-main--container{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+  }
+}
+
+@media(min-width:1024px){
+  .s-main--container{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+  }
+}

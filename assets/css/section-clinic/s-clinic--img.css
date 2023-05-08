@@ -1,0 +1,10 @@
+.s-clinic--img{
+  width: 100%;
+}
+
+@media(min-width:1024px){
+  .s-clinic--img{
+    width: 250px;
+  }
+ 
+}

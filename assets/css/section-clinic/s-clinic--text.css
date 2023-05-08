@@ -1,0 +1,10 @@
+.s-clinic--title{
+  margin-bottom: 15px;
+  font-size: 2rem;
+  font-family: var(--fontalternates);
+}
+
+.s-clinic--text{
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
